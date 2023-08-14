@@ -1,0 +1,20 @@
+.icon{
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 500ms;
+}
+.icon:hover{
+  color: orange;
+  border-color: orange;
+  transform: translateY(-8px);
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(255, 166, 0, 0.079);
+}
+.has-background-image{
+  background-image: url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyMzE1OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
